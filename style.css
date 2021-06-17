@@ -21,6 +21,15 @@
  flex-wrap: wrap;
 }
 
+.text {
+    font-family: monospace;
+    color: hsl(14, 80%, 22%);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: hsl(224, 89%, 36%);
+    
+}
+
 .sumContainer {
     font-family: monospace;
     color: hsl(283, 59%, 58%);

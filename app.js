@@ -24,10 +24,12 @@ class Die {
     globalarr.push(this);
     this.div.append(this.value);
   };
-// This isn't working!  But why?  remover() seems to be built like the other methods.
+
   remover() {
-      this.div.addEventListener('mouseenter', () => {
+      this.div.addEventListener('dblclick', () => {
           console.log("hey")
+          globalarr.splice(globalarr.indexOf(this), 1)
+          this.div.remove()
       })
   };
   
