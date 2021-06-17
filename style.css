@@ -1,0 +1,30 @@
+.die {
+    height: 100px;
+    width: 100px;
+    border: 10px solid green;
+    border-radius: 10%;
+    margin: 2px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-weight: bold;
+    color: hsl(224, 89%, 36%)
+}
+
+#dieContainer {
+
+ margin-top: 5px;
+ border: 10px dotted red;
+ display: flex;
+ 
+ flex-wrap: wrap;
+}
+
+.sumContainer {
+    font-family: monospace;
+    color: hsl(283, 59%, 58%);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: hsl(224, 89%, 36%);
+}
